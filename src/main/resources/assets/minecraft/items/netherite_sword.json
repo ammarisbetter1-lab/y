@@ -1,0 +1,202 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "karambit",
+        "model": {
+          "type": "minecraft:model",
+          "model": "skinmod:item/karambit"
+        }
+      },
+      {
+        "when": "lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "skinmod:item/lightsaber"
+        }
+      },
+      {
+        "when": "lightsaber_double",
+        "model": {
+          "type": "minecraft:model",
+          "model": "skinmod:item/lightsaber_double"
+        }
+      },
+      {
+        "when": "butterfly_knife",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_1"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_2"
+              }
+            },
+            {
+              "threshold": 3,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_3"
+              }
+            },
+            {
+              "threshold": 4,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_4"
+              }
+            },
+            {
+              "threshold": 5,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_5"
+              }
+            },
+            {
+              "threshold": 6,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_6"
+              }
+            },
+            {
+              "threshold": 7,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_7"
+              }
+            },
+            {
+              "threshold": 8,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_8"
+              }
+            },
+            {
+              "threshold": 9,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_9"
+              }
+            },
+            {
+              "threshold": 10,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_10"
+              }
+            },
+            {
+              "threshold": 11,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_11"
+              }
+            },
+            {
+              "threshold": 12,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_12"
+              }
+            },
+            {
+              "threshold": 13,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_13"
+              }
+            },
+            {
+              "threshold": 14,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_14"
+              }
+            },
+            {
+              "threshold": 15,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_15"
+              }
+            },
+            {
+              "threshold": 16,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_16"
+              }
+            },
+            {
+              "threshold": 17,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_17"
+              }
+            },
+            {
+              "threshold": 18,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_18"
+              }
+            },
+            {
+              "threshold": 19,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_19"
+              }
+            },
+            {
+              "threshold": 20,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_20"
+              }
+            },
+            {
+              "threshold": 21,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_21"
+              }
+            },
+            {
+              "threshold": 22,
+              "model": {
+                "type": "minecraft:model",
+                "model": "skinmod:item/butterfly_flick_22"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "skinmod:item/butterfly_knife"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

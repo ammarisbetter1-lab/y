@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "skinmod:item/butterfly_flick_2"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        5.21,
+        -90,
+        37.51
+      ],
+      "translation": [
+        0.67,
+        5.22,
+        2.64
+      ],
+      "scale": [
+        0.92,
+        0.92,
+        0.92
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        5.21,
+        90,
+        -37.51
+      ],
+      "translation": [
+        1.59,
+        5.22,
+        0.49
+      ],
+      "scale": [
+        0.92,
+        0.92,
+        0.92
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        5.21,
+        -90,
+        67.51
+      ],
+      "translation": [
+        -1.1,
+        5.61,
+        1.85
+      ],
+      "scale": [
+        1.15,
+        1.15,
+        1.15
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        5.21,
+        90,
+        -67.51
+      ],
+      "translation": [
+        1.1,
+        5.61,
+        -0.85
+      ],
+      "scale": [
+        1.15,
+        1.15,
+        1.15
+      ]
+    }
+  }
+}

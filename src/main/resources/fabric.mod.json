@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "skinmod",
+  "version": "${version}",
+  "name": "Weapon Skins (Client)",
+  "description": "Press K to change how your swords look. Client-side only: nothing is sent to the server.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.skinmod.SkinModClient"]
+  },
+  "mixins": [
+    { "config": "skinmod.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
